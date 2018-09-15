@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -6,10 +11,9 @@ import (
 	"fmt"
 	"log"
 	"net"
+	pb "rest-to-grpc-gateway/petstore"
 	"strconv"
 	"strings"
-
-	pb "rest-to-grpc-gateway/petstore"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

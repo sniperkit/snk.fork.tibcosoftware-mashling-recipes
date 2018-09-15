@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 'use strict';
 
 const functions = require('firebase-functions');

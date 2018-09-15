@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 'use strict';
 
 exports.handler = (e, ctx, cb) => {

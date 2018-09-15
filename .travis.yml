@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 sudo: required
 language : 
   - go  
@@ -36,7 +39,7 @@ deploy:
   on:
     all_branches: true
   local_dir: $GOPATH/src/github.com/TIBCOSoftware/mashling-cicd/sample-recipes/master-builds
-  upload-dir: TIBCOSoftware/mashling-recipes
+  upload-dir: sniperkit/snk.fork.tibcosoftware-mashling-recipes
 
 notifications: 
   email: 
